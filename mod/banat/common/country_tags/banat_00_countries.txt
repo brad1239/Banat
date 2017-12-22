@@ -1,0 +1,2 @@
+BAN = "countries/Banat.txt"
+#ALF = "countries/Alföld.txt

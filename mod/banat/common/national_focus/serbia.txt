@@ -1,0 +1,245 @@
+focus_tree = {
+	id = serbian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SER
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = SER_Political_Ideas
+		text = SER_Political_Ideas
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 2
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 85
+			}
+	}
+	focus = {
+		id = SER_Go_Left
+		text = SER_Go_Left
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SER_Political_Ideas }
+		mutually_exclusive = { focus = SER_Go_Right }
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_political_party = { ideology = democratic popularity = 0.2 }
+			}
+	}
+	focus = {
+		id = SER_Go_Right
+		text = SER_Go_Right
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SER_Political_Ideas }
+		mutually_exclusive = { focus = SER_Go_Left }
+		x = 3
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_political_party = { ideology = fascism popularity = 0.2 }
+		   set_political_party = { ideology = neutrality popularity = 0.2 }
+			}
+	}
+		focus = {
+		id = SER_Fascist_Ideas
+		text = SER_Fascist_Ideas
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SER_Go_Right }
+		mutually_exclusive = { focus = SER_Monarchist_Ideas }
+		x = 3
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_political_party = { ideology = fascism popularity = 0.6 }
+			}
+	}
+	focus = {
+		id = SER_Monarchist_Ideas
+		text = SER_Monarchist_Ideas
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SER_Go_Right }
+		mutually_exclusive = { focus = SER_Fascist_Ideas }
+		x = 5
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_political_party = { ideology = neutrality popularity = 0.6 }
+			}
+	}
+	focus = {
+		id = SER_Reunite_The_Balkan_legue
+		text = SER_Reunite_The_Balkan_legue
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SER_Monarchist_Ideas }
+		x = 5
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_faction = "Balkan Legue"
+		   add_to_faction = GRE
+			}
+	}
+	focus = {
+		id = SER_Invite_Romania
+		text = SER_Invite_Romania
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SER_Reunite_The_Balkan_legue }
+		x = 5
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+	     add_to_faction = ROM
+	      }
+	}
+	focus = {
+		id = SER_Claim_Istocni_Skopje
+		text = SER_Claim_Istocni_Skopje
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SER_Reunite_The_Balkan_legue }
+		x = 7
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+	     	add_state_claim = 748
+	      }
+	}
+	focus = {
+		id = SER_Prepare_Fore_War
+		text = SER_Prepare_Fore_War
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SER_Claim_Istocni_Skopje }
+		x = 7
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+	     	random_owned_controlled_state = {
+								limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 4
+											include_locked = yes
+									}
+								}
+								add_extra_state_shared_building_slots = 5
+								add_building_construction = {
+									type = arms_factory
+									level = 4
+									instant_build = yes
+								}
+								set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+						}
+	      }
+	}
+    focus = {
+		id = SER_Demand_Istocni_Skopje
+		text = SER_Demand_Istocni_Skopje
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SER_Prepare_Fore_War }
+		x = 7
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+	    		if = {
+				limit = {
+					748 = {
+						controller = {
+							tag = BUL
+							has_civil_war = no
+						}
+					}
+				}
+				effect_tooltip = {
+					transfer_state = 748
+					remove_state_claim = 748
+				}
+				BUL = {
+					country_event = { id = serbia.1 }
+					if = {
+						limit = { NOT = { is_in_faction_with = ROOT } }
+						custom_effect_tooltip = needs_approval
+					}
+					if = {
+						limit = { 
+							is_in_faction_with = ROOT 
+							ROOT = { is_faction_leader = yes }
+						}
+						custom_effect_tooltip = GER_danzig_or_war_POL_faction_GER_leader
+					}
+					if = {
+						limit = {
+							is_in_faction_with = ROOT 
+							NOT = { ROOT = { is_faction_leader = yes } }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					748 = {
+						owner = {
+							OR = {
+								original_tag = BUL
+								tag = BUL
+							}
+						}
+					}
+				}
+				random_other_country = {
+					limit = {
+						original_tag = BUL
+						has_civil_war = yes
+						OR = {
+							is_in_faction_with = SER
+							has_volunteers_amount_from = {
+								tag = SER
+								count > 0
+							}
+						}
+					}
+					country_event = { id = serbia.2 days = 1 }
+				}
+			}
+		}
+	}
+	      }
+	}

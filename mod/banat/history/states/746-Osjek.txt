@@ -1,0 +1,24 @@
+state={
+	id=746
+	name="STATE_746"
+	resources={
+		steel=100.000
+	}
+
+	history={
+		owner = BAN
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = BAN
+
+	}
+
+	provinces={
+		9608 11577 
+	}
+	manpower=345341
+	buildings_max_level_factor=1.000
+   state_category=town
+}

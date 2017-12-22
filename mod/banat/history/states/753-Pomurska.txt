@@ -1,0 +1,24 @@
+state={
+	id=753
+	name="STATE_753"
+	resources={
+		steel=100.000
+	}
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		6672 
+	}
+	manpower=432764
+	buildings_max_level_factor=1.000
+    state_category=rural
+}

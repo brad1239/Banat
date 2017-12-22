@@ -1,0 +1,25 @@
+state={
+	id=745
+	name="STATE_745"
+	resources={
+		oil=400
+	}
+
+	history={
+		owner = BAN
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = BAN
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		679 6670 6700 9643 9656 11646 
+	}
+	manpower = 941500
+	buildings_max_level_factor=1.000
+    state_category=rural
+}

@@ -1,0 +1,24 @@
+state={
+	id=743
+	name="STATE_743"
+	resources={
+		steel=100
+	}
+
+	history={
+		owner = BAN
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = BAN
+
+	}
+
+	provinces={
+		614 3614 6643 11787 
+	}
+	manpower = 941500
+	buildings_max_level_factor=1.000
+    state_category=rural
+}
