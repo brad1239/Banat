@@ -1,2 +1,3 @@
 BAN = "countries/Banat.txt"
 #ALF = "countries/Alföld.txt
+GAL = "countries/Galicia.txt"
