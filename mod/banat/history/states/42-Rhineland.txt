@@ -11,14 +11,14 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = GER
+		owner = FRA
 		victory_points = { 11435 10 }
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
 
 		}
-		add_core_of = GER
+		add_core_of = FRA
 
 		1939.1.1 ={
 			buildings = {

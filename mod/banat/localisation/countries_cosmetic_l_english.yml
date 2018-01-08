@@ -219,3 +219,12 @@
  ALF_BAN_autonomy_puppet:0 "Banat alfold"
  ALF_BAN_autonomy_colony:0 "Colony of alfold"
  ALF_BAN_autonomy_dominion:0 "Dominion of alfold"
+
+ TUR_CRI_autonomy_dominion:0 "Khanet of Crimea"
+ TUR_CRI_autonomy_colony:0 "Khanet of Crimea"
+ TUR_CRI_autonomy_puppet:0 "Khanet of Crimea"
+ TUR_CRI_autonomy_integrated_puppet:0 "Khanet of Crimea"
+ TUR_CRI_autonomy_dominion_DEF:0 "The Khanet of Crimea"
+ TUR_CRI_autonomy_colony_DEF:0 "The Khanet of Crimea"
+ TUR_CRI_autonomy_puppet_DEF:0 "The Khanet of Crimea"
+ TUR_CRI_autonomy_integrated_puppet_DEF:0 "Khanet of Crimea"
