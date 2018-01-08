@@ -1,4 +1,4 @@
-name="Rising Empires"
+﻿name="Rising Empires"
 path="mod/risingempires/"
 tags={
 	"Alternative History"
