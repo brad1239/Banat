@@ -259,5 +259,5 @@ if = {
 	}
 	set_autonomy = {
 		target = CRI
-		autonomous_state = puppet
+		autonomous_state = autonomy_integrated_puppet
 	}
