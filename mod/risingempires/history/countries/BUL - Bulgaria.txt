@@ -127,8 +127,13 @@ set_politics = {
 	last_election = "1938.3.27"
 	election_frequency = 48
 	elections_allowed = no
+	}
 }
-}
+
+# DIPLOMACY
+create_faction = "Balkan Powers"
+add_to_faction = BUL
+add_to_faction = TUR
 
 create_country_leader = {
 	name = "Boris III"
@@ -187,6 +192,3 @@ create_field_marshal = {
 	traits = { defensive_doctrine }
 	skill = 4
 }
-create_faction = "Balkan Powers"
-add_to_faction = BUL
-add_to_faction = TUR
