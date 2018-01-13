@@ -27,220 +27,221 @@ division_template = {
 }
 
 #The units:
-units = {
+ units = {
 		division= {	
 		name = "First Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "2. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "3. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "4. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "5. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "6. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "7. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "8. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "9. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "10. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "11. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "12. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "13. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "14. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "15. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "16. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "17. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "18. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "19. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "20. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "21. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "22. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "23. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "24. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "25. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "26. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "27. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "28. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "29. Infantry"
-		location = 11561
+		location = 525
 		division_template = "Ноги солдатів"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "1. Гори"
-		location = 11561
+		location = 525
 		division_template = "Гори"
 		start_experience_factor = 0.3
 	}
-units = {
+ 
 		division= {	
 		name = "2. Гори"
-		location = 11561
+		location = 525
 		division_template = "НГори"
 		start_experience_factor = 0.3
 	}
+} 

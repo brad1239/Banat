@@ -1,0 +1,131 @@
+﻿##### Division Templates #####
+
+division_template = {
+	name = "Infantry"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+	}
+	support = {
+    artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mountaineers"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 2 }
+	}
+}
+
+#The units:
+units = {
+		division= {	
+		name = "First Infantry"
+		location = 3686
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+		division= {	
+		name = "2. Infantry"
+		location = 3686
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+
+		division= {	
+		name = "3. Infantry"
+		location = 3686
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+
+		division= {	
+		name = "4. Infantry"
+		location = 3686
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+
+		division= {	
+		name = "5. Infantry"
+		location = 3686
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+
+		division= {	
+		name = "6. Infantry"
+		location = 3686
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+
+		division= {	
+		name = "7. Infantry"
+		location = 3686
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+
+		division= {	
+		name = "8. Infantry"
+		location = 3686
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+
+		division= {	
+		name = "9. Infantry"
+		location = 3686
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+
+		division= {	
+		name = "10. Infantry"
+		location = 3686
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+	}
+
+		division= {	
+		name = "1. Mountaineers"
+		location = 3686
+		division_template = "Mountaineers"
+		start_experience_factor = 0.3
+	}
+
+		division= {	
+		name = "2. Mountaineers"
+		location = 3686
+		division_template = "НMountaineers"
+		start_experience_factor = 0.3
+	}
+}
+	
+	#### NAVAL UNITS #####
+	
+	navy = {				
+		name = "Navy of the Khan"			
+		base = 485 
+		location = 485  
+		ship = { name = "Hacı I Giray" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CRI } } }	
+		ship = { name = "Peter" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CRI } } }
+		ship = { name = "Padlov" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CRI } } }
+		ship = { name = "Sevastopol" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CRI } } }
+		ship = { name = "Herry" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRI } } }
+		ship = { name = "U-1" definition = submarine equipment = { submarine_2 = { amount = 1 owner = CRI } } }
+		ship = { name = "U-2" definition = submarine equipment = { submarine_2 = { amount = 1 owner = CRI } } }
+		
+	
+	}	
+}
